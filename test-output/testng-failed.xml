@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BasicHTTPRequest.ex4_PUTRequest">
+      <class name="BasicHTTPRequest.ex2_getStudents">
         <methods>
-          <include name="updateStudentDetails"/>
+          <include name="getAllRequest"/>
         </methods>
-      </class> <!-- BasicHTTPRequest.ex4_PUTRequest -->
+      </class> <!-- BasicHTTPRequest.ex2_getStudents -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

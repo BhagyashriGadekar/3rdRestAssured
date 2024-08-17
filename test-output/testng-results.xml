@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T14:49:16 IST" name="Default suite" finished-at="2024-08-14T14:49:21 IST" duration-ms="4712">
+  <suite started-at="2024-08-14T16:08:26 IST" name="Default suite" finished-at="2024-08-14T16:08:32 IST" duration-ms="5951">
     <groups>
     </groups>
-    <test started-at="2024-08-14T14:49:16 IST" name="Default test" finished-at="2024-08-14T14:49:21 IST" duration-ms="4712">
-      <class name="BasicHTTPRequest.ex4_PUTRequest">
-        <test-method signature="updateStudentDetails()[pri:1, instance:BasicHTTPRequest.ex4_PUTRequest@742ff096]" started-at="2024-08-14T14:49:16 IST" name="updateStudentDetails" finished-at="2024-08-14T14:49:21 IST" duration-ms="4609" status="FAIL">
+    <test started-at="2024-08-14T16:08:26 IST" name="Default test" finished-at="2024-08-14T16:08:32 IST" duration-ms="5951">
+      <class name="BasicHTTPRequest.ex2_getStudents">
+        <test-method signature="getAllRequest()[pri:1, instance:BasicHTTPRequest.ex2_getStudents@75437611]" started-at="2024-08-14T16:08:26 IST" name="getAllRequest" finished-at="2024-08-14T16:08:32 IST" duration-ms="5701" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -120,9 +120,9 @@ at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoIn
 at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy:180)
-at io.restassured.internal.RequestSpecificationImpl.put(RequestSpecificationImpl.groovy)
-at BasicHTTPRequest.ex4_PUTRequest.updateStudentDetails(ex4_PUTRequest.java:30)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+at BasicHTTPRequest.ex2_getStudents.getAllRequest(ex2_getStudents.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -154,8 +154,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.net.ConnectException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateStudentDetails -->
-      </class> <!-- BasicHTTPRequest.ex4_PUTRequest -->
+        </test-method> <!-- getAllRequest -->
+      </class> <!-- BasicHTTPRequest.ex2_getStudents -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
